@@ -5,9 +5,19 @@
   padding: 10px;
 }
 
+fieldset {
+  border: none;
+}
+
+legend {
+  color: #99ffbb;
+  font-weight: bold;
+
+}
+
 form {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   display: inline-block;
 }
 
@@ -15,8 +25,58 @@ form {
   text-align: center;
 }
 .newsletter{
-  text-align: right;
+  text-align: center;
 
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: none;
+  border: 2px;
+  padding: 5px;
+  color: #101216;
+  transition: .3s ease-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: #ceffe2;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-text {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+input#name,
+input#email,
+input#email-repeat {
+  margin-left: 15px;
+}
+
+button {
+  background: #99ffbb;
+  padding: 10px;
+  min-width: 150px;
+  color: #101216;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00cc99;
 }
 
 
@@ -24,5 +84,13 @@ form {
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
+  }
+
+  form {
+    text-align: left;
+    }
+
+  .newsletter {
+    text-align: right;
   }
 }

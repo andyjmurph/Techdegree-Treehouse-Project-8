@@ -10,14 +10,14 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #f2f6fc;
   background: #101216;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #f2f6fc;
 }
 
 .card a {
@@ -95,7 +95,7 @@ header {
 
 header .name{
   font-size: 3em;
-  color: #003333;
+  color: #00cc99;
   font-weight: 700;
 }
 .tagline {
@@ -104,7 +104,7 @@ header .name{
   text-transform: uppercase;
   background-color: #fff;
   color: #101216;
-  width: 30%;
+  width: 90%;
   border-radius: 2.5px;
   margin: 0 auto;
 }
@@ -112,12 +112,12 @@ header .name{
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  text-align: left;
+  text-align: center;
   border-top: 4px solid #99ffbb;
   clear: both;
 }
 .card:hover {
-  border-color:   #00cc99;
+  border-color: #00cc99;
 }
 
 
@@ -140,6 +140,7 @@ h2 {
   text-transform: uppercase;
   color: #99ffbb;
   margin-top: 10px;
+  display: inline-block;
 }
 
 /* Footer styles */
@@ -171,20 +172,8 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
-}
-
-a.twitter {
-  background-image: url(../img/twitter-32.png);
-}
-
-a.youtube {
-  background-image: url(../img/youtube-32.png);
-}
-
-a.spotify {
-  background-image: url(../img/spotify-32.png);
+  opacity: .7;
+  transition: all .3s;
 }
 
 a.social:hover {
@@ -193,6 +182,9 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
@@ -206,6 +198,10 @@ a.social:hover {
 
   header {
     min-height: 470px;
+  }
+
+  .tagline {
+      width: 50%;
   }
 
   .nav {

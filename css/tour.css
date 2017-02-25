@@ -1,16 +1,38 @@
 /* Tour page styles */
-
-pre {
-  font-family: 'PT Sans', sans-serif;
-}
-
 .heading{
   display: inline-block;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .pick{
   width: 40px;
   height: 0%;
   padding: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  background-color: #fafafa;
+  font-size: .8em;
+  color: #101216;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+tr {
+  border-bottom: 1.5px solid #101216;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+thead {
+  background-color: #99ffbb;
 }
