@@ -32,7 +32,6 @@ form {
 input[type="text"],
 input[type="email"],
 textarea,
-select,
 button {
   outline: none;
   -webkit-appearance: none;
