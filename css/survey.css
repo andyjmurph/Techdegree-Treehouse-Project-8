@@ -46,8 +46,13 @@ button {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   background-color: #ceffe2;
+}
+
+input[type="radio"]:focus+label {
+  color: #99ffbb;
 }
 
 label {
